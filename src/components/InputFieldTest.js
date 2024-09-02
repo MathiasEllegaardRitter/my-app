@@ -42,7 +42,7 @@ export function InputFieldTest({isActive, onKeyPress})
     return (
         <div>
             <h1>This is a regular input field </h1>
-            <input type="text" value={inputMessage} ref={inputRef} placeholder="Input Field :D" />
+            <input type="text" value={inputMessage} ref={inputRef} placeholder="Input Field" />
         </div>
     )
 }

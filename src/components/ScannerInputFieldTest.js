@@ -37,7 +37,7 @@ export function ScannerinputFieldTest({isActive, onKeyPress})
     return (
         <div>
             <h1>This is a Scanner</h1>
-            <input type="text" value={scannerMessage} ref={inputRef} placeholder="Scanner field :D" readOnly/>
+            <input type="text" value={scannerMessage} ref={inputRef} placeholder="Scanner field"/>
         </div>
     )
 }
